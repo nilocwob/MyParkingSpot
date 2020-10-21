@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyParkingSpot</string>
+    <string name="parked_now">Parked Now?!</string>
+    <string name="LocationText">"Location: "</string>
+</resources>
