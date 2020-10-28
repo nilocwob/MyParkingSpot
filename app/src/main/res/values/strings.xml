@@ -2,4 +2,6 @@
     <string name="app_name">MyParkingSpot</string>
     <string name="parked_now">Parked Now?!</string>
     <string name="LocationText">"Location: "</string>
+    <string name="location">Location:</string>
+    <string name="greeting">Click below to save parking space here!</string>
 </resources>

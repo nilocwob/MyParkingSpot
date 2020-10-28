@@ -15,9 +15,9 @@
         android:layout_marginBottom="32dp"
         android:width="136dp"
         android:height="180dp"
-        android:background="#E91E1E"
+        android:background="@drawable/roundedbutton"
         android:text="@string/parked_now"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -29,10 +29,23 @@
         android:id="@+id/LocationTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Location:"
-        android:textColor="#FFFFFF"
+        android:text="@string/location"
+        android:textColor="#EFFFFF"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ParkBtn" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/greeting"
+        android:textColor="#EFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/ParkBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
